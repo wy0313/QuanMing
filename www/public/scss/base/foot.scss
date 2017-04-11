@@ -1,0 +1,40 @@
+.foot {
+  width: 100%;
+  height: 44px;
+  position: fixed;
+  background: rgba(255,255,255,0.9);
+  bottom: 0;
+  z-index: 100;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  a {
+    display: block;
+    -webkit-box-flex: 1;
+    font-size: 0.14rem;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    color: #000;
+    i,img {
+      display: -webkit-box;
+    }
+    img{
+      width: 25%;
+    }
+    img.on{
+      display: none;
+    }
+    &.on{
+      color:#fccd56;
+    }
+    &.on img{
+      display: none;
+    }
+    &.on img.on{
+        display: block;
+        color:#fccd56;
+    }
+  }
+  
+}

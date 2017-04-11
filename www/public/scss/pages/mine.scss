@@ -1,0 +1,66 @@
+.mine{
+	width:100%;
+	.mine-megs{
+		width:100%;
+		padding: 20px;
+		display: -webkit-box;
+		-webkit-box-orient:vertical;
+		-webkit-box-align:center;
+		-webkit-box-pack:center;
+		h2{
+			.girl{
+				img{
+					width: 15px;
+				}
+			}
+		}
+		p{
+			text-align: center;
+		}
+		.userTop{
+			width:100%;
+			display: -webkit-box;
+			-webkit-box-align:center;
+			margin-bottom: 10px;
+			a{
+				display: block;
+				-webkit-box-flex:1;
+				display: -webkit-box;
+				-webkit-box-orient:vertical;
+				text-align: center;
+				output,label{
+					display: block;
+					color:#555;
+					text-align: center;
+				}
+				output{
+					font-size: 22px;
+				}
+			}
+			img{
+				display: block;
+				width: 80px;
+				height:80px;
+				border-radius:50px;
+			}
+		}
+	}
+	.nav{
+		display: -webkit-box;
+		a{
+			display: block;
+			display: -webkit-box;
+			-webkit-box-flex:1;
+			-webkit-box-orient:vertical;
+			-webkit-box-pack:center;
+			-webkit-box-align:center;
+			img{
+				display: block;
+				width: 30%;
+			}
+			span{
+				display: block;
+			}
+		}
+	}
+}

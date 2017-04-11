@@ -1,0 +1,49 @@
+.juben-list{
+	width:100%;
+	margin-bottom: 44px;
+	h3{
+		border-left: 2px solid #000;
+		padding:0 10px;
+		font-size: 14px;
+		margin: 10px;
+	}
+	dl{
+		display: -webkit-box;
+		padding: 10px;
+		border-bottom: #f5f5f5 solid 1px;
+		dt{
+			width:30%;
+			img{
+				width:100%;
+				border-radius: 3px;
+			}
+		}
+		dd{
+			width:65%;
+			margin:0 10px;
+			h2{
+				font-size: 16px;
+				margin-bottom: 10px;
+			}	
+			small{
+				color:#f00;
+				font-size: 10px;
+				margin-left: 10px;
+			}
+			p{
+				color: #ccc;
+				font-size: 10px;
+			}
+			aside{
+				display: -webkit-box;
+				-webkit-box-pack:justify;
+				margin-top: 10px;
+				a{
+					display: block;
+					color: #000;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}
